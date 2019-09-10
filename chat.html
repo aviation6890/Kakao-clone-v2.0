@@ -26,40 +26,64 @@
 
     <header class="header">
       <div class="header__heaer-column">
-        <a href="more.html">
+        <a href="index.html">
           <i class="fas fa-arrow-left fa-2x"></i>
         </a>
-        <h1 class="header__title">setting</h1>
+        <h1 class="header__title">Best Friends</h1>
       </div>
       <div class="header__heaer-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
+        <div class="header__icon">
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
     </header>
-    <mai class="settings">
-      <section class="settings_sections">
-        <ul class="settings__list">
-          <li class="settings_setting">
-            <span class="settings__icon">
-              <i class="fas fa-lock"></i>
-            </span>
-            <span class="setting__title">Privacy</span>
-          </li>
-          <li class="settings_setting">
-            <span class="settings__icon">
-              <i class="far fa-bell"></i>
-            </span>
-            <span class="setting__title">Notification</span>
-          </li>
-          <li class="settings_setting">
-            <span class="settings__icon">
-              <i class="far fa-user"></i>
-            </span>
-            <span class="setting__title">Friends</span>
-          </li>
-        </ul>
-      </section>
-    </mai>
+
+    <main class="chat">
+      <ul class="chat_messages">
+        <span class="chat__timestamp">Friday, January 11, 2019</span>
+        <li class="incoming-message message">
+          <img
+            src="images/avatar.jpg"
+            class="g-avatar message__avatar"
+            alt=""
+          />
+          <div class="message__content">
+            <h1 class="message__authou">Best Friend</h1>
+            <div class="message__bubble">
+              Congrats I Love you!
+            </div>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+
+        <li class="incoming-message message">
+          <div class="message__content">
+            <span class="message__timestamp"></span>
+            <div class="message__bubble">
+              Thank you see you soon!
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
+        <input type="text" placeholder="send Message" />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
   </body>
 </html>
